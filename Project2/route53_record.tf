@@ -4,5 +4,5 @@
 #   name    = "www.tubaloughlin.com"
 #   type    = "A"
 #   ttl     = "300"
-#   records = ["${aws_instance.web.public_ip}"]
+#   records = ["${aws_instance.nagios_server.public_ip}"]
 # }

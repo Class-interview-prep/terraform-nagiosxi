@@ -1,5 +1,4 @@
 variable "vpc_cidr" {}
-variable "peer_vpc_cidr" {}
 
 variable "public1_cidr" {}
 variable "public2_cidr" {}
